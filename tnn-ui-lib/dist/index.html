@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI-Lib</title>
+  <style>
+    body {
+      font-size: 1.3em;
+      font-family: sans-serif;
+    }
+    .container {
+      margin: 40px;
+      margin-top: 60px;
+    }
+    button {
+      background: lightgray;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      display: block;
+      font-size: 1em;
+      margin: 20px auto;
+      padding: 10px;
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- tooltip -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus cupiditate quas quia? Ipsum, dolorum! Optio id, atque dicta porro perferendis libero explicabo placeat vero quia <span class="tooltip" data-message="I'm a tooltip!!">inventore praesentium</span> nostrum tempore, blanditiis impedit corporis error necessitatibus nihil tempora recusandae facere veniam minus? Doloremque eveniet ullam numquam obcaecati veritatis tenetur nihil unde? Nesciunt?</p>
+  </div>
+
+  <h2>Services</h2>
+  <!-- dropdowns -->
+  <div class="dropdown">
+    <div class="trigger">Awesome T-shirt Designs</div>
+    <div class="content">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente magni molestias ea nesciunt accusamus molestiae in corporis sit, eaque dolorum debitis commodi ab consequatur ullam odit. Consequuntur debitis quidem porro!</p>
+    </div>
+  </div>
+  <div class="dropdown">
+    <div class="trigger">Cool Sticker Printing</div>
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint perspiciatis, fugiat atque amet a eum! Alias, ad. Sequi dolorem consequatur inventore explicabo eligendi maiores, amet nesciunt. Harum saepe dolorem impedit.</p>
+    </div>
+  </div>
+
+  <h2>More Information</h2>
+  <!-- tabs -->
+  <div class="tabs">
+    <ul>
+      <li class="trigger active" data-target="#about">About</li>
+      <li class="trigger" data-target="#delivery">Delivery Info</li>
+      <li class="trigger" data-target="#returns">Returns Info</li>
+    </ul>
+    <div id="about" class="content active">
+      <h3>about</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quisquam explicabo maiores commodi iusto. Consequuntur ut ad repellat cum praesentium corporis, tenetur iste eius aspernatur nemo accusamus est a doloribus?</p>
+    </div>
+    <div id="delivery" class="content">
+      <h3>delivery</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque dolores dolore repellendus, minus nam quo molestias pariatur ipsa quia assumenda facere odit maiores laudantium perferendis atque quasi inventore, sequi sint.</p>
+    </div>
+    <div id="returns" class="content">
+      <h3>returns</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti nemo fugiat dolore incidunt reiciendis quisquam autem distinctio amet odit ratione, soluta modi, asperiores consectetur est neque expedita. Hic, veritatis inventore.</p>
+    </div>
+  </div>
+
+  <div>
+    <button class="snackbar-trigger">click me</button>
+  </div>
+  
+  <!-- js -->
+  <script src="./assets/bundle.js"></script>
+</body>
+</html>

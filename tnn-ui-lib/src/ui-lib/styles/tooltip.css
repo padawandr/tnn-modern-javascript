@@ -1,0 +1,37 @@
+.tooltip {
+  border-bottom: 1px dotted lightcoral;
+  color: lightcoral;
+  cursor: help;
+  display: inline-block;
+  position: relative;
+}
+
+.tip {
+  color: white;
+  background: lightcoral;
+  border-radius: 10px;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  padding: 5px 0 3px;
+  position: absolute;
+  text-align: center;
+  transition: opacity 0.25s;
+  visibility: hidden;
+  width: 150px;
+}
+
+.tip.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tip::after {
+  border: 4px solid transparent;
+  border-top-color: lightcoral;
+  content: "";
+  left: 50%;
+  position: absolute;
+  top: 100%;
+}

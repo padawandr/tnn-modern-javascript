@@ -1,0 +1,19 @@
+.snackbar {
+  background: lightcoral;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 1px 3px 5px rgba(0,0,0,.2);
+  color: white;
+  left: 50%;
+  margin-left: -120px;
+  margin-top: -100%;
+  padding: 20px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 200px;
+  transition: all 0.25s;
+}
+
+.snackbar.active {
+  margin-top: 0;
+}
