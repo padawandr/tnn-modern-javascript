@@ -1,7 +1,7 @@
 # Modern Javascript Course
 > Solutions of the course projects
 
-1. Todo List  
+1. ToDo List  
 [Github Project](https://github.com/padawandr/tnn-modern-javascript/tree/main/tnn-todo-list) - [Live Solution](https://tnn-todo-list.padawandr.vercel.app/)
 2. Weather App  
 [Github Project](https://github.com/padawandr/tnn-modern-javascript/tree/main/tnn-weather-app) - [Live Solution](https://tnn-weather-app.padawandr.vercel.app/)
